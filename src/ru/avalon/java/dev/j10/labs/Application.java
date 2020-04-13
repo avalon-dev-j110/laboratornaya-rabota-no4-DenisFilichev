@@ -89,6 +89,7 @@ public class Application {
          */
         System.out.println("-----------String-------------");
         sort.sort((Object[])strings);
+        for (Object obj : strings) {System.out.println(obj);}
 
         /*
          * TODO(Студент): Отсортируйте массив strings по убыванию

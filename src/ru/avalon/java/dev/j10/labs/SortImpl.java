@@ -20,7 +20,7 @@ public class SortImpl implements Sort{
     @Override
     public void sort(Object[] array) {
         Arrays.sort(array);
-        for (Object obj : array) {System.out.println(obj);}
+        //for (Object obj : array) {System.out.println(obj);}
     }
 
     @Override
